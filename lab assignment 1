@@ -1,0 +1,28 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+ float FCP_Marks, Maths_Marks, EE_marks, Total_Marks, FCP_Percentage, Maths_Percentage, EE_Percentage, Total_Percentage ;
+cout<<" Enter Obtaind Marks In FCP "<<endl;
+cin>>FCP_Marks;
+cout<<" Enter Obtained Marks in Maths "<<endl;
+cin>>maths_Marks
+cout<<" Enter Obtained Marks In EE "<endl;
+Total_Marks=FCP_Marks+Maths_Marks+EE_Marks;
+cout<<" Total Marks In FCp = 100 "<<endl;
+cout<<" Total marks In Maths = 100 "<<endl;
+cout<<" Total Marks In EE = 100 "<<endl<<endl<<endl<<endl;
+cout<<" Marks Obtained In FCP = "<<FCP_Marks<<endl;
+cout<<" Marks Obtained In Maths = "<<Maths_Marks<<endl;
+cout<<" Marks Obtained In EE = "<<EE_Marks<<endl<<endl<<endl<endl;
+FCP_Percentage=(FCP_Marks/100) * 100;
+Maths_Percentage=(Maths_Marks/100) * 100;
+EE_Percentage=(EE_Marks/100) * 100;
+cout<<" Percentage in FCP = "<<FCP_Percentage<<" % "<<endl;
+cout<<" Percentage in Maths = "<<Maths_Percentage<<" % "<<endl;
+cout<<" Percentage in EE = "<<EE_Percentage<<" % "<<endl<<endl<<endl<endl;
+Total_Percentage=(Total_Marks/300) * 100;
+cout<<" Overall Percentage = "<<Total_Percentage<<endl;
+return 0;
+}
